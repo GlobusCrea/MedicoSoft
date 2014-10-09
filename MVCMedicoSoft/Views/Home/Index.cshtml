@@ -2,30 +2,70 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-</div>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <h2>Slide 1</h2>
+                <div class="carousel-caption">
+                    <h3>First slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 2</h2>
+                <div class="carousel-caption">
+                    <h3>Second slide label</h3>
+                    <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 3</h2>
+                <div class="carousel-caption">
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>                               		
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <div class="col-md-5">
+        <img class="avatar" src="/Assets/images/FanfanAvatar.jpg" />
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="col-md-6">
+        <p>Causa saepe vicissimque redderet magis qui an a benevolentiam meritis vicissimque fictum et antiquior dandis dandis 
+        benevolentiam est alio etiam coluntur ab simulatione et amicitia coniungendam qui est hoc simulatum magis meritis coniungendam
+        causa quo atque quo est est quisque sit et propter est amicitiae acciperet desiderata considerandum quidquid natura amicitiae iis 
+        recipiendisque Amor benevolentiam minus recipiendisque amicitiae autem amicitia alio alio observantur voluntarium desiderata hoc 
+        atque saepe alio simulatione et ipsa saepe utrum et sit sed est minus redderet imbecillitatem amicitia videri vicissimque quo 
+        percipiuntur nominata coluntur desiderata pulchrior hoc a et dandis a est amicitia princeps ab quidquid.</p>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</div>
+
+<div class="row border">
+    <h2 class="outils">Outils</h2>
+    <div class="col-md-6 center">
+        <h3>users</h3>
+        <a href="#nogo"><img class="avatar" src="/Assets/images/DossierUsers.gif" /></a>
+    </div>
+    <div class="col-md-6 center">
+        <h3>Agenda</h3>
+        <a href="#nogo"><img class="avatar" src="/Assets/images/DossierAgenda.gif" /></a>
     </div>
 </div>

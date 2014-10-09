@@ -1,0 +1,17 @@
+﻿@model DAL.Utilisateur
+
+@{
+    ViewBag.Title = "LoginForm";
+}
+
+<div class="panel-default">
+    <div class="panel-heading">Connectez-vous</div>
+    <div class="panel-body">
+        @using(Html.BeginForm())
+        {
+            <p>Login: @Html.TextBoxFor(x=>x.Login)</p>
+            <p>Password: @Html.TextBoxFor(x=>x.Password)</p>
+        }
+    </div>
+</div>
+
