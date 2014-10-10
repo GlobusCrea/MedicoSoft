@@ -158,12 +158,6 @@
     <Content Include="Views\Login\LoginForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\C#\C#PROJETS\MedicoSoft_V2\DAL\DAL.csproj">
-      <Project>{993dbd5b-2899-4bf6-91e5-aebf23ec0eaa}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
