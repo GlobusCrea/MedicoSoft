@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMedicoSoft", "MVCMedicoSoft\MVCMedicoSoft.csproj", "{3237BC0D-E923-4F12-A62D-4A3B6738D82D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "MedicoSoft_DAL\DAL\DAL.csproj", "{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\MVCMedicoSoft_DAL\DAL\DAL.csproj", "{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
